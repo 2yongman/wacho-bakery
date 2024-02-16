@@ -208,6 +208,95 @@
   }
 }
 
+/* 375px 이하 */
+@media screen and (max-width: 375px) {
+  .fp-scrollable .fp-section:not(.fp-auto-height):not([data-percentage]),
+  .fp-scrollable .fp-slide:not(.fp-auto-height):not([data-percentage]),
+  .fp-scrollable.fp-responsive
+    .fp-is-overflow.fp-section:not(.fp-auto-height):not([data-percentage]) {
+    min-height: 100vh !important;
+  }
+
+  .s1 {
+    min-height: 0 !important;
+    padding: 20px !important;
+  }
+
+  .s1 .identity-tit .txt {
+    font-size: 1rem !important;
+  }
+
+  .s2 {
+    min-height: 600px !important;
+    height: 100%;
+  }
+
+  .s2 ul {
+    height: 1000px;
+  }
+
+  .s2 .txt-bx p {
+    display: none !important;
+  }
+
+  .s2 .container .intro-tit .txt {
+    font-size: 1rem !important;
+  }
+
+  .s2 .container .intro-tit .txt p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+
+  .s2 .img-bx img {
+    height: 355px !important;
+  }
+
+  .s2 ul li .txt-bx strong span {
+    display: block !important;
+  }
+
+  .s2 .link-btn {
+    width: 142px !important;
+  }
+
+  .s3 {
+    padding: 20px !important;
+  }
+
+  .s3 h4 {
+    margin-block-end: 1rem !important;
+    font-size: 1.25rem !important;
+  }
+
+  .s3 .container {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+  }
+
+  .s3 .container .map-des {
+    margin-right: 20px !important;
+  }
+
+  .s3 .container .map-wrapper {
+    padding-top: 0.9rem !important;
+  }
+
+  .s3 .container .map-des .tit {
+    font-size: 1.085rem;
+  }
+
+  .s3 .map-wrapper .tit {
+    font-weight: 400;
+  }
+
+  .s3 .container .des1 {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+  }
+}
+
 /* 섹션0 */
 
 .s0 {
